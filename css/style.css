@@ -1001,7 +1001,7 @@ color: rgba(255, 255, 255, 1);
 
 /* форма в модальном окне */
 
-.form{
+.form-modal{
 display: block;
 margin-top: 0px;
 }
@@ -1028,24 +1028,17 @@ margin-bottom: 10px;
 }
 
 
-/* .form-modal .form-modal__field:not(.form-modal .form-field.checkbox, .form-modal .form-field.textarea) {
-margin-bottom: 10px;
-} */
-
 .form-modal__field--textarea {
 margin-bottom: 20px;
 }
 
-.form-modal__input,
-.form-modal__textarea {
-width: 100%;
-}
 
 .form-modal__input {
 height: 40px;
 margin-top: 4px;
 padding-left: 42px;
 padding-right: 16px;
+width: 100%;
 }
 
 .form-modal__textarea {
@@ -1054,6 +1047,7 @@ height: 120px;
 margin-top: 4px;
 padding: 12px 16px;
 resize: none;
+width: 100%;
 }
 
 .form-modal__field .form-modal__icon {
@@ -1159,74 +1153,6 @@ margin-top: 30px;
 
 
 
-
-
-
-
-/* Oбщий background E5E5E5 */
-/* лого цвет #2196F3 #000000 */
-/* цвет основного текста #212121; */
-/* цвет дополнительного текста  #757575; */
-
-/* белый #ffffff*/
-/* акцент #2196F3 */
-/* задний фон хедера  background: #F5F4FA */
-/* задний фон под кнопкой background: #2F303A */
-/* задний фон основного раздела background: #E5E5E5 */
-/* фон внизу почта и телефон rgba(255, 255, 255, 0.6) */
-
-/* .button{ 
-font-family: inherit;}*/
-/* {
-    color: var(--title-text-color);
-    background-color: var(--primery-white-color);
-}
-.button.primary{
-    color: var(--primery-white-color);
-    background-color:var(--accent-color);
-}
-.button.secondary{
-    color:var(--accent-color);
-    background-color:var(--primery-white-color);
-}
-html
-<li><a href=""class=button primary> Log in </a></li>
-<li><a href=""class=button secondary> Register </a></li> */
-
-/* .box{
-    margin-bottom: 50px;
-    /* border: 5px solid tomato;
-    padding: 20px;
-    margin: 20px;
-    background-color: tomato; 
-    outline: 2px solid tomato;
-    background-color: tomato;}
- */
-
- /* выбрать четные,  (2n+1) не четные  */
-/* .work-list > .item:nth-child(2n){
-background-color: red;    
-} */
-
-/* Пример выбора последнего или первого элемента */
-
-/* .site-nav .item {
-margin-right: 50px;
-}
-
-.site-nav .item:last-child {
-margin-right: 0px;
-}
-
-.site-nav .item:not(:last-child){
-margin-right: 50px;
-}
-.site-nav .item + .item {
-margin-left: 50px;
-} */
-
-
-
 /* строки в списках */
 /* width: calc(100%/2);
 /* calc((100%-колво маржинов в строке(строк-1)*знач марж (1-это 30px)/кол-во элементов(строк) */
@@ -1243,70 +1169,5 @@ margin-bottom: 30px;
 
 
 
-/* .benefits {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    padding-bottom: 94px;
-    background-color: tomato;
-}
-
-.benefits .item {
-    width: 370px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    outline: 1px solid teal;
-}
-
-/* .benefits .item:nth-child(3n) {
-    margin-right: 0px;
-}
 
 
-.benefits .item:nth-child(n+7) {
-    margin-bottom: 0px;
-}
-
-
-
-
-
-загаловки в списках
-.benefits-title {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    margin-top: 20px;
-}
-
-/* абзацы в списках*/
-/* .benefits-text {
-    color: var(--primery-text-color);
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.03em;
-    margin-bottom: 0px;}  */
-
-.benefits {}
-
-.benefits__item {}
-
-.benefits-card {}
-
-.benefits__benefits-card {}
-
-.benefits-card__link {}
-
-.benefits-card__img {}
-
-.benefits-card__thumb {}
-
-.benefits-card__description {}
-
-.benefits-card__meta {}
-
-.benefits-card__title {}
-
-.benefits-card__text {}
