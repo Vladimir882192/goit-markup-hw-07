@@ -1,42 +1,42 @@
 .benefits {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
 }
 
 
 .benefits__item {
-    flex-basis: calc((100% - 60px) / 3);
+flex-basis: calc((100% - 60px) / 3);
 }
 
 .benefits-card__link {
-    display: block;
-    text-decoration: none;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+display: block;
+text-decoration: none;
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-.benefits-card__link:hover,
-.benefits-card__link:focus {
-    box-shadow: $box-shadow-benefits;
+
+&:hover,
+&:focus {
+box-shadow: $box-shadow-benefits;
 }
 
 /* hover overlok всей карточки */
-.benefits-card__link:hover .benefits-card__img::before,
-.benefits-card__link:focus .benefits-card__img::before {
+&:hover .benefits-card__img::before,
+&:focus .benefits-card__img::before {
     transform: translateY(0);
 }
 
-.benefits-card__link:hover .benefits-card__thumb,
-.benefits-card__link:focus .benefits-card__thumb {
-    transform: translateY(0);
+&:hover .benefits-card__thumb,
+&:focus .benefits-card__thumb {
+transform: translateY(0);
 }
-
+}
 /* эффект overlok */
 
 /* скрывать лишнее */
 .benefits-card__img {
-    position: relative;
-    overflow: hidden;
+position: relative;
+overflow: hidden;
 }
 
 

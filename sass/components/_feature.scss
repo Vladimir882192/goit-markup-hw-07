@@ -1,47 +1,40 @@
 .feature {
-    display: flex;
-    margin-top: calc(-1 * $card-set-gape);
-    margin-left: calc(-1 * $card-set-gape);
-    }
-    
-    
-    .feature__item {
-    flex-basis: calc(100% / 3 - ($card-set-gape));
-    margin-left: $card-set-gape;
-    margin-top: $card-set-gape;
-    }
-    .feature__icon-div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 120px;
-        background-color: $button-portfolio-color;
-        border-radius: 4px;
-        margin-bottom: 30px;
-    }
-    
-    .feature__icon {
-        height: 70px;
-        width: 70px;
-    }
-    
-    .feature__title {
-    color: $title-text-color;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    font-style: normal;
-    text-transform: uppercase;
-    }
-    
-    .feature__text {
-    margin-top: 10px;
-    color: $primery-text-color;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    font-style: normal;
-    }
-    
+  display: flex;
+  margin-top: calc(-1 * $card-set-gape);
+  margin-left: calc(-1 * $card-set-gape);
+}
+
+.feature__item {
+  flex-basis: calc(100% / 3 - ($card-set-gape));
+  margin-left: $card-set-gape;
+  margin-top: $card-set-gape;
+}
+.feature__icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: $button-portfolio-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.feature__title {
+  color: $title-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.feature__text {
+  margin-top: 10px;
+  color: $primery-text-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}

@@ -19,9 +19,7 @@
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-
-.filters__button--current {
+&--current {
     border: none;
     color: $primery-white-color;
     background-color: $accent-color;
@@ -29,10 +27,11 @@
     box-shadow: $box-shadow-team;
 }
 
-.filters__button:hover,
-.filters__button:focus {
+&:hover,
+&:focus {
     color: $primery-white-color;
     background-color: $accent-color;
     border-color: $button-portfolio-color;
     box-shadow: $box-shadow-team;
+}
 }
