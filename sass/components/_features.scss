@@ -1,15 +1,15 @@
-.feature {
+.features {
   display: flex;
   margin-top: calc(-1 * $card-set-gape);
   margin-left: calc(-1 * $card-set-gape);
 }
 
-.feature__item {
+.features__item {
   flex-basis: calc(100% / 3 - ($card-set-gape));
   margin-left: $card-set-gape;
   margin-top: $card-set-gape;
 }
-.feature__icon-div {
+.features__icon-div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@
   margin-bottom: 30px;
 }
 
-.feature__title {
+.features__title {
   color: $title-text-color;
   font-weight: 700;
   font-size: 14px;
@@ -29,7 +29,7 @@
   text-transform: uppercase;
 }
 
-.feature__text {
+.features__text {
   margin-top: 10px;
   color: $primery-text-color;
   font-weight: 400;

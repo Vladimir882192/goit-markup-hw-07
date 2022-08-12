@@ -47,7 +47,7 @@ body {
 }
 
 .page-header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .page-header__container {
@@ -296,7 +296,7 @@ body {
 .section {
   padding: 94px 0px;
 }
-.section--team {
+.section--other-background {
   background-color: #F5F4FA;
   padding: 94px 0px;
 }
@@ -315,7 +315,7 @@ body {
   margin-bottom: 50px;
 }
 
-.feature {
+.features {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -323,14 +323,14 @@ body {
   margin-left: -30px;
 }
 
-.feature__item {
+.features__item {
   -ms-flex-preferred-size: calc(33.3333333333% - 30px);
       flex-basis: calc(33.3333333333% - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.feature__icon-div {
+.features__icon-div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -346,7 +346,7 @@ body {
   margin-bottom: 30px;
 }
 
-.feature__title {
+.features__title {
   color: #212121;
   font-weight: 700;
   font-size: 14px;
@@ -356,7 +356,7 @@ body {
   text-transform: uppercase;
 }
 
-.feature__text {
+.features__text {
   margin-top: 10px;
   color: #757575;
   font-weight: 400;
@@ -435,7 +435,7 @@ body {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .team__card-thumb {
@@ -524,7 +524,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   fill: #afb1b8;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -747,7 +747,7 @@ body {
   cursor: pointer;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -765,11 +765,11 @@ body {
   margin-top: 0px;
 }
 .form-modal__input:focus, .form-modal__textarea:focus {
-  border: 1px solid #2196F3;
+  border: 1px solid #2196f3;
   outline: transparent;
 }
 .form-modal__input:focus + .form-modal__icon {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 .form-modal__link {
   color: #2196f3;
@@ -1023,9 +1023,9 @@ body {
 /* рамки и отступы внутри них */
 .benefits-card__meta {
   padding: 20px 24px;
-  border-right: 1px solid #ECECEC;
-  border-left: 1px solid #ECECEC;
-  border-bottom: 1px solid #ECECEC;
+  border-right: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 /* загаловки в списках */
